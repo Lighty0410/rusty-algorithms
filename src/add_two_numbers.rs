@@ -19,12 +19,9 @@ use std::collections::VecDeque;
 pub fn push_to_queue(mut list: Option<Box<ListNode>>) -> VecDeque<i32> {
     let mut stack = VecDeque::new();
 
-    while list != None {
-        if let Some(inner) = list {
-            stack.push_back(inner.val);
-
-            list = inner.next;
-        }
+    while let Some(inner) = list {
+        stack.push_back(inner.val);
+        list = inner.next;
     }
 
     stack
