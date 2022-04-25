@@ -1,0 +1,8 @@
+2d matrix -> 1d matrix:
+1) Fill the matrix
+2)let i_1 = idx / mat[0].len();
+  let i_2 = idx % mat[0].len();
+  where idx = 1d_mat current index
+
+1d matrix -> 2d matrix
+1) *num_col = mat_1d[n * row_idx + col_idx]; where n = 2d_matrix[0].len();

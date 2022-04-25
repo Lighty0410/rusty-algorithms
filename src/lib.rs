@@ -18,11 +18,13 @@ mod max_depth_binary_tree;
 mod maximum_subarray;
 mod merge_sorted_array;
 mod n_th_tribonacci_number;
+mod pascals_triangle;
 mod path_sum;
 mod reshape_the_matrix;
 mod symmetric_tree;
 mod town_judge;
 mod two_sum;
+mod valid_sudoku;
 mod validate_bst;
 
 pub struct Solution {}
